@@ -4,7 +4,7 @@ import useQuiosco from "@/hooks/useQuiosco";
 function Categoria({ categoria }) {
   const { nombre, icono, id } = categoria;
   const { categoriaActual, handleCategoriaActual } = useQuiosco();
-  
+
   return (
     <div
       className={`${
@@ -17,6 +17,8 @@ function Categoria({ categoria }) {
         src={`/assets/img/icono_${icono}.svg`}
         alt="imagen icono"
         className="mr-5"
+        priority
+        style={{ width: '70px', height: "70px" }}
       />
       <button
         className="font-bold text-2xl hover:cursor-pointer"

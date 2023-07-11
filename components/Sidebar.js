@@ -11,6 +11,8 @@ function Sidebar() {
         height={100}
         src="/assets/img/logo.svg"
         alt="imagen logotipo"
+        priority
+        style={{ width: '300px', height: "100px" }}
       />
 
       <nav className="mt-10">
