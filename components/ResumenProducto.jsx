@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { formatearMoneda } from "../helpers";
-import useQuiosco from "@/hooks/useQuiosco";
+import useQuiosco from "../hooks/useQuiosco";
 
 const ResumenProducto = ({ producto }) => {
   const { nombre, precio, cantidad, imagen } = producto;

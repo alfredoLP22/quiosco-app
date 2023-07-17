@@ -1,4 +1,4 @@
-import "@/styles/globals.css";
+import "../styles/globals.css";
 import { QuioscoProvider } from "../context/QuioscoProvider";
 import { useEffect, useState } from "react";
 

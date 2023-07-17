@@ -1,7 +1,7 @@
 import Image from "next/image";
 import axios from "axios";
 import { toast } from 'react-toastify';
-import { formatearMoneda } from "@/helpers";
+import { formatearMoneda } from "../helpers";
 
 function Orden({ orden }) {
   const { id, nombre, total, pedido } = orden;

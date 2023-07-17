@@ -1,5 +1,5 @@
 import Image from "next/image";
-import useQuiosco from "@/hooks/useQuiosco";
+import useQuiosco from "../hooks/useQuiosco";
 import Categoria from "./Categoria";
 
 function Sidebar() {

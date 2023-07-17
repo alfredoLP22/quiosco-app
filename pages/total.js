@@ -1,7 +1,7 @@
 import { useEffect, useCallback } from "react";
-import useQuiosco from "@/hooks/useQuiosco";
-import Layout from "@/layout/Layout";
-import { formatearMoneda } from "@/helpers";
+import useQuiosco from "../hooks/useQuiosco";
+import Layout from "../layout/Layout";
+import { formatearMoneda } from "../helpers";
 
 export default function Total() {
   const { pedido, nombre, setNombre, colocarOrden, total } = useQuiosco();

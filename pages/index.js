@@ -1,8 +1,7 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
-import Layout from "@/layout/Layout";
-import useQuiosco from "@/hooks/useQuiosco";
-import Producto from "@/components/Producto";
+import Layout from "../layout/Layout";
+import useQuiosco from "../hooks/useQuiosco";
+import Producto from "../components/Producto";
 
 const inter = Inter({ subsets: ["latin"] });
 

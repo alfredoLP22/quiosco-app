@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import useQuiosco from "@/hooks/useQuiosco";
-import { formatearMoneda } from "@/helpers";
+import useQuiosco from "../hooks/useQuiosco";
+import { formatearMoneda } from "../helpers";
 
 function ModalProducto() {
   const { producto, handleChangeModal, handleSetPedido, pedido } = useQuiosco();
